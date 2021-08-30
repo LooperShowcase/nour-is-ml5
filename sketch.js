@@ -20,7 +20,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(900, 600);
   player = new Player();
   wordClassifier.classify(heardword);
 }
